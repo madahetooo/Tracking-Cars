@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusable="true"
+
+    android:orientation="vertical"
+    android:padding="@dimen/_8sdp"
+    tools:context="com.carsecurity.carsecurity.Verification">
+
+
+    <ImageView
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:contentDescription="@string/applicatiion_logo"
+        android:src="@drawable/applogo" />
+
+
+    <TextView
+        android:id="@+id/txPhoneNumberVerification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/phone_number_verification"
+        android:textColor="#000000"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPhoneRequest"
+        style="@style/Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:hint="@string/enter_phone_number"
+        android:inputType="phone"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/bVerify"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/verify"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/skipText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom |center"
+        android:padding="@dimen/_16sdp"
+        android:text="@string/skip"
+        android:textStyle="bold" />
+
+</LinearLayout>

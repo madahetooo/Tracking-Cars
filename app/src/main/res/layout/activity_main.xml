@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="@dimen/_6sdp"
+    tools:context="com.carsecurity.carsecurity.MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:contentDescription="@string/applicatiion_logo"
+        android:src="@drawable/applogo" />
+
+
+    <TextView
+        android:id="@+id/login_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login"
+        android:textColor="#000000"
+        android:textSize="@dimen/_32sdp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/emailAdress_et"
+        style="@style/Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:hint="@string/enter_email_address"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/_5sdp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/password_et"
+        style="@style/Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:padding="@dimen/_5sdp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/login_btn"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/register_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:text="@string/register_now"
+        android:textColor="#000000"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

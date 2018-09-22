@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Car Security</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <string name="title_activity_maps">Google Map</string>
+    <string name="appwidget_text">Car Security Widget</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="add_profile_picture">Add Profile Picture</string>
+    <string name="full_name">Full Name:</string>
+    <string name="phone">Phone:</string>
+    <string name="old_password">Old Password:</string>
+    <string name="new_password">New Password:</string>
+    <string name="update">Update</string>
+    <string name="login">Login</string>
+    <string name="register_now">Register now</string>
+    <string name="register">Register</string>
+    <string name="phone_number_verification">Phone Number Verification</string>
+    <string name="verify">Verify</string>
+    <string name="skip">SKIP</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="edit_full_name">Edit Full Name</string>
+    <string name="edit_phone_number">Edit Phone Number</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="editprofile_activity">EditProfile activity</string>
+    <string name="profilepicture">ProfilePicture</string>
+    <string name="applicatiion_logo">Applicatiion Logo</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="updated">Updated</string>
+    <string name="uploadImage">Uploading image..</string>
+    <string name="enterValidData">Please Enter Valid Data</string>
+    <string name="welcome">Welcome</string>
+    <string name="pleaseEnterYourData">Please enter your data</string>
+    <string name="verificationFaild">onVerificationFailed</string>
+    <string name="codeTimeOut">onCodeAutoRetrievalTimeOut :</string>
+    <string name="sending">Sending...</string>
+    <string name="locationNotSet">Locations not Set...</string>
+    <string name="registrationSuccess">Registration Success...</string>
+    <string name="theEmailIsAlreadyTaken">This Email is already Taken...</string>
+    <string name="getLocationByFAB">FloatingActionButtonGetLocation</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="help">Help</string>
+    <string name="signOut">Sign Out</string>
+    <string name="loading">Loading...</string>
+    <string name="uploadImageFromGallery">Upload Image From Gallery</string>
+    <string name="allowLocation">Allow Location</string>
+    <string name="pleaseAllowLocation">    Please  Allow Location To use this program Go TO settings/app/Name Project/permissions and Allow Location
+</string>
+    <string name="appwidget_text_format">welcom</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/shape"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_95sdp"
+        android:contentDescription="@string/applicatiion_logo"
+        android:src="@drawable/applogo" />
+
+
+    <TextView
+        android:id="@+id/txName"
+        android:contentDescription="@string/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:text="@string/username"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txEmail"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/email"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:text="@string/email"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:contentDescription="@string/allowLocation"
+        android:text="@string/app_name"
+        android:textColor="#fff" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_Widget"
+        android:contentDescription="@string/appwidget_text"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:text="@string/add_widget"/>
+
+
+</LinearLayout>

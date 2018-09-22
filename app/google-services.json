@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "15239287050",
+    "firebase_url": "https://carsecurity-695f2.firebaseio.com",
+    "project_id": "carsecurity-695f2",
+    "storage_bucket": "carsecurity-695f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15239287050:android:6723ef1e3da98883",
+        "android_client_info": {
+          "package_name": "com.carsecurity.carsecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15239287050-i31mhhmm1ime0u5rop7houkth3p3idi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carsecurity.carsecurity",
+            "certificate_hash": "cadce1d2e2e3f8765713c15fb0fa34e092ee8947"
+          }
+        },
+        {
+          "client_id": "15239287050-u0ft6usedvati3fh2c4m05475vee0m84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi0qYxuey7PY2Id9hyoCxIB5fg9wLqCjU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15239287050-u0ft6usedvati3fh2c4m05475vee0m84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
